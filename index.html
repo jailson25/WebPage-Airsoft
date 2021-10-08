@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <title>Meu site</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+            <div class="container-fluid col-11 m-auto">
+                <a class="navbar-brand" href="#">AIRSOFT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#contato">contato</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/img/imgPrincipal.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Airsoft no Brasil</h5>
+                    <p>No Brasil, o Airsoft começou a ser divulgado em 2003 pelo Portal Airsoft Brasil. Após
+                        diversas reuniões com a Diretoria de Fiscalização de Produtos Controlados, o airsoft passou
+                        a ser conhecido pelo Órgão do Governo Brasileiro que regula os produtos considerados
+                        controlados no país (Exército Brasileiro).</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/imgPrincipal2.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Jogador de airsoft em acção</h5>
+                    <p>O jogo é bastante popular em vários países asiáticos, como o Japão, China, Taiwan, Coreia do
+                        Sul e Filipinas, onde armas reais são difíceis de obter devido a leis locais. Devido a isto,
+                        a maior parte das armas de Airsoft e acessórios são fabricados nestes países.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/imgPrincipal3.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Jogador de airsoft em acção</h5>
+                    <p>Os jogadores participam de simulações de operações policiais, militares ou de mera recreação
+                        com armas de pressão que atiram projéteis plásticos não letais, utilizando-se frequentemente
+                        de tácticas militares.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 col-11 m-auto">
+        <div class="col">
+            <div class="card h-100">
+                <img src="/img/imgCard1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Colt M4A1 em versão para Airsoft</h5>
+                    <p class="card-text">A propulsão da arma pode ser através de molas (springs), mecanismos eléctricos
+                        (AEG) ou gás comprimido (GBB)...</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Saiba mais
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Colt M4A1 em versão para Airsoft</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>A propulsão da arma pode ser através de molas (springs), mecanismos eléctricos
+                                        (AEG) ou gás comprimido (GBB) incluindo gás propano (ou green gas, que é propano
+                                        adicionado com óleo lubrificante, como o silicone por exemplo), cápsulas de CO2,
+                                        ar, gás refrigerante HFC134a e algumas armas podem funcionar a HPA (High
+                                        Pressure Air) como algumas armas de Paintball.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="/img/imgCard2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Jogadores de Airsoft em Ação</h5>
+                    <p class="card-text">Os soldados do 187º Batalhão de Artilharia se preparam para limpar uma sala
+                        durante o treinamento...</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Saiba mais
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Jogadores de Airsoft em Ação</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Os soldados do 187º Batalhão de Artilharia se preparam para limpar uma sala
+                                        durante o treinamento de combate urbano no local do Exercício de Treinamento de
+                                        Campo do
+                                        batalhão. Os soldados estão armados com armas Airsoft como parte de um programa
+                                        piloto que, se
+                                        bem-sucedido, poderá ser implementado em todo o Exército.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="/img/imgCard3.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Airsoft</h5>
+                    <p class="card-text">O Airsoft é uma prática esportiva que tem crescido no Brasil, recebendo
+                        reconhecimento e chamando cada vez mais a atenção...</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Saiba mais
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Airsoft</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>O Airsoft é uma prática esportiva que tem crescido no Brasil, recebendo
+                                        reconhecimento e chamando cada vez mais a atenção de quem gosta de adrenalina e
+                                        temas militares.
+                                        Para muitos, pode parecer apenas uma versão melhorada de paintball, mas o
+                                        esporte traz uma
+                                        história e disciplina própria que é motivo de muito orgulho para quem o pratica.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="sobre" class="col-11 m-auto">
+        <h2 class="text-center">Sobre</h2>
+        <p class="text-center">O Airsoft é um jogo de simulação militar em que os jogadores utilizam armas de pressão
+            que são réplicas de armas reais para encenar operações militares e policiais, utilizando-se de práticas
+            militares verdadeiras. Uma partida pode ser praticada ao ar livre ou em ambientes fechados e pode contar com
+            uma variedade de números de jogadores, desde grupos pequenos até disputas com mais de 1500 participantes,
+            como o Border Wars.</p>
+    </div>
+    <hr>
+    <div id="contato" class="col-11 m-auto">
+        <h2 class="text-center">Contato</h2>
+        <div class="m-auto" style="width: 150px;">
+            <a href="https://api.whatsapp.com/send?phone=5521987121953&text=Ol%C3%A1%20Jailson.">
+                <i class="fab fa-whatsapp" style="font-size: 150px; color: green"></i>
+            </a>
+        </div>
+    </div>
+
+    <footer style="background-color: #333;" class=" page-footer font-small blue p-5">
+        <div class="text-center">
+            <a href="https://www.linkedin.com/in/jailson-melo-a98775208/">Desenvolvido por Jailson Melo</a>
+        </div>
+    </footer>
+
+    <script src="/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</body>
+
+</html>
